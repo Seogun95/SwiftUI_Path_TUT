@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Path_TUTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PathView()
         }
     }
 }
