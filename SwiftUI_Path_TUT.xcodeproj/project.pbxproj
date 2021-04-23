@@ -11,6 +11,7 @@
 		6C9FAF8D2631539F00B2CCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9FAF8C2631539F00B2CCC8 /* Assets.xcassets */; };
 		6C9FAF902631539F00B2CCC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9FAF8F2631539F00B2CCC8 /* Preview Assets.xcassets */; };
 		6C9FAF99263157E000B2CCC8 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9FAF98263157E000B2CCC8 /* PathView.swift */; };
+		6CE427FF2632F9E900D2A2F8 /* MyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE427FE2632F9E900D2A2F8 /* MyShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6C9FAF8F2631539F00B2CCC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C9FAF912631539F00B2CCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C9FAF98263157E000B2CCC8 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		6CE427FE2632F9E900D2A2F8 /* MyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				6C9FAF882631539C00B2CCC8 /* SwiftUI_Path_TUTApp.swift */,
 				6C9FAF98263157E000B2CCC8 /* PathView.swift */,
+				6CE427FE2632F9E900D2A2F8 /* MyShape.swift */,
 				6C9FAF8C2631539F00B2CCC8 /* Assets.xcassets */,
 				6C9FAF912631539F00B2CCC8 /* Info.plist */,
 				6C9FAF8E2631539F00B2CCC8 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE427FF2632F9E900D2A2F8 /* MyShape.swift in Sources */,
 				6C9FAF99263157E000B2CCC8 /* PathView.swift in Sources */,
 				6C9FAF892631539C00B2CCC8 /* SwiftUI_Path_TUTApp.swift in Sources */,
 			);

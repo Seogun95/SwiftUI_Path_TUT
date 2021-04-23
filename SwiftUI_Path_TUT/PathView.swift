@@ -9,20 +9,20 @@ import SwiftUI
 
 struct PathView: View {
     var body: some View {
-    //정사각형
         Path { path in
-            // 1. 오른쪽 모서리로 커서 이동
-            path.move(to: CGPoint(x: 200, y: 0))
+            // 1. 커서 이동
+            path.move(to: CGPoint(x: 200, y: 100))
             // 2.
-            path.addLine(to: CGPoint(x: 200, y: 200))
+            path.addLine(to: CGPoint(x: 100, y: 300))
             // 3.
-            path.addLine(to: CGPoint(x: 0, y: 200))
-            // 4. 왼쪽 모서리로 커서 이동
-            path.addLine(to: CGPoint(x: 0, y: 0))
-            // 5. 자동으로 경로를 닫음
+            path.addLine(to: CGPoint(x: 300, y: 300))
+            // 4.
+            path.addLine(to: CGPoint(x: 200, y: 100))
+            // 5.
             path.closeSubpath()
         }
-        .fill(Color.blue)
+        
+        .stroke(Color.blue, style: StrokeStyle(lineWidth: 20, lineCap: .round, lineJoin: .round))
     }
 }
 
